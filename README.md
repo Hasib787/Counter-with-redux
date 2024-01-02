@@ -3,9 +3,9 @@
 
 <!-- PROJECT LOGO -->
 <br />
- <p align="center">
+<p align="center">
     <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
-    <h3 align="center "><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/rewrite-the-counter-application" target="_blank" >THINK IN A REDUX WAY - MODULE 1 - LESSON 6</a></h3>
+    <h3 align="center"><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/setup-react-redux">THINK IN A REDUX WAY - MODULE 2 - LESSON 1</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -40,12 +40,21 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd think-in-a-redux-way
    ```
-4. Checkout/switch to branch 1.6
+4. Checkout/switch to branch 2.1
    ```sh
-   git checkout 1.6
+   git checkout 2.1
    ```
-5. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-   <br>
+5. Install dependencies
+   ```sh
+   npm i
+   ```
+6. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
+   ```sh
+   npm start
+   ```
+7. Your app should be available in http://localhost:3000
+
+<br>
 
 <!-- CONTACT  -->
 
