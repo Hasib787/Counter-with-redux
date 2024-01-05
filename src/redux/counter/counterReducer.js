@@ -1,26 +1,26 @@
-import { INCREMENT, DECREMENT } from "./actionTypes";
+import { INCREMENT, DECREMENT } from './actionTypes'
 
 const initialState = {
-    value: 0,
+  value: 0,
 }
 
-const counterReducer = (state = initialState, action) =>{
-        switch (action.type) {
-            case INCREMENT:
-                return {
-                    ...state,
-                    value: state.value + 1,
-                };
-                
-                case DECREMENT:
-                    return{
-                        ...state,
-                        value: state.value - 1,
-                    };
-        
-            default:
-                return state;
-        };
-};
+const counterReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case INCREMENT:
+      return {
+        ...state,
+        value: state.value + 1,
+      }
 
-export default counterReducer;
+    case DECREMENT:
+      return {
+        ...state,
+        value: state.value - 1,
+      }
+
+    default:
+      return state
+  }
+}
+
+export default counterReducer
